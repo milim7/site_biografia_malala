@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    z-index: 222;
+    position: fixed;
+    width: 100%;
+    height: 8rem;
+    top: 0;
+    left: 0;
+    padding: 1.2% 3%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-bottom: 2px dashed rgb(234, 20, 209);
+    
+}
+ul{
+    display: flex;
+    gap: 2.5rem;
+
+}
+
+li >a{
+    color: black;
+    font-weight: bolder;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    transition: 0.8s ease-in-out;
+    outline: none;
+}
+.active{
+    background-color: rgb(255, 0, 255);
+    color: black;
+    padding: 8px 14px;
+    
+    border-radius: 10px;
+    transition: 0.6s ease-in-out;
+    
+}
+.active:hover{
+    background-color: transparent;
+    color: black;
+}
+a:hover{
+    color: rgb(255, 0, 255);
+}
+body{
+    background-color: rgb(244, 219, 219);
+   
+}
+.imagem{
+    margin-top: 43px;
+    width: 100%;
+    height: 600px;
+    
+    display: flex;
+}
+.imagem > img{
+   width: 700px;
+   height: 500px;
+   margin-top: 98px;
+   margin-left: -150px;
+    
+}
+.ctnd{
+    margin-top: 200px;
+    width: 500px;
+    height: 45%;
+    margin-left: -80px;
+    text-align: center;
+    
+}
+#mll{
+    color: rgb(234, 20, 209);
+    font-size: 60px;
+}
+span{
+    color: black;
+    box-shadow: 5px 5px 5px rgb(255, 0, 255);
+}
+#hist{
+    margin-top: 25px;
+    font-size: 22px;
+    color: rgb(202, 122, 17);
+    font-weight: bolder;
+}
+#edu{
+    margin-top: 15px;
+    color: rgb(202, 122, 17);
+}
+.texto{
+    margin-top: 50px;
+    position: absolute;
+    width: 500px;
+    height: 45%;
+   
+    border-radius: 30px;
+    margin-right: 650px;
+    box-shadow: 0px 0px 15px white;
+}
+h2{
+    
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: rgb(229, 64, 64);
+    letter-spacing: 2px;
+}
+h3{
+    color: rgb(246, 211, 211);
+    margin-top: 3rem;
+    margin-left: 30px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-size: 1.2rem;
+    max-width: 500px;
+}
+.autor{
+    color: gray;
+    margin-left: 330px;
+    margin-top: 12px;
+    font-size: 11pt;
+}
+
+/*codigo abaixo history*/
+
+.perf{
+    margin-top: 5px;
+    color: black;
+    line-height: 40px;
+}
+.txt{
+    color: gray;
+}
+figure{
+    position: relative;
+    margin-left: 50px;
+   
+    width: 230px;
+    height: 490px;
+    text-align: center;
+}
+figure > img{
+    margin-top: 30px;
+    width: 230px;
+    height: 290px;
+    border-radius: 50px;
+}
+.conteudo{
+    margin-top: 35px;
+    width: calc(100% - 280px);
+    margin-left: 280px;
+    position: relative;
+    bottom: 500px;
+    height: 800px;
+    
+}
+.luther{
+    padding: 20px 0px;
+    margin-left: 380px;
+    color: black;
+}
+.contd{
+    color: black;
+    text-align: justify;
+    font-size: 14pt;
+    max-width: 700px;
+    margin-top: 20px;
+    margin-left: 150px;
+    line-height: 30px;
+    
+}
+.sub{
+    color: black;
+    font-size: 15pt;
+}
+.conteudo >img{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.contd-ft{
+    font-size: 10pt;
+    color:gray;
+    margin-left: 150px;
+}
+
+blockquote{
+    border: 1px solid red;
+    border-left: 3px solid gray;
+    border-left-color: gray;
+    width: 800px;
+    margin-left: 150px;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    
+}
+.ctd{
+    color: gray;
+    text-align: justify;
+    font-size: 14pt;
+    margin-left: 30px;
+    max-width: 660px;
+    margin-top: 20px;
+    line-height: 30px;
+    font-style: italic; 
+}
+
+#galeria{
+   padding: 30px 0px;
+}
+.galler{
+    text-align: center;
+}
+.mnt{
+    color: red;
+    padding: 35px 0px;
+   
+}
+.galler > #perff{
+    width: 220px;
+    height: 300px;
+}
+.ctdgaleria{
+    margin-top: 35px;
+    text-align: justify;
+    max-width: 600px;
+    margin-left: 340px;
+    line-height: 25px;
+    font-size: 14pt;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+    
+
+footer{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    border-top: 4px solid white;
+    border-radius: 50px;
+
+}
